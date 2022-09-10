@@ -49,7 +49,7 @@ void INITFILESYSTEM(FILE *f)
 
 	//第0块为 Boot Block 
 	memset(buf, 0, sizeof(buf));
-	strcpy(buf,"You are launching a file system made by XU Xiaojia and XIAO Ruojin.");
+	strcpy(buf,"You are launching a file system made by YiZhang.");
 	PUTBLK(buf, 0);
 
 	//第1块为 Super Block 
